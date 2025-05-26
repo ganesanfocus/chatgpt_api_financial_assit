@@ -21,6 +21,6 @@ def CustomChatGPT(user_input):
 
     return ChatGPT_reply
 
-demo = gradio.Interface(fn=CustomChatGPT, inputs= "text", outputs = "text", title= "My saveing Assistant")
+demo = gradio.Interface(fn=CustomChatGPT, inputs= "text", outputs = "text", title= "My saving Assistant")
 
 demo.launch(share=True)
